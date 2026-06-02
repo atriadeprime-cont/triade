@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triade Prime — Site em Atualização</title>
+  <meta name="description" content="Estamos preparando uma nova experiência. Em breve, a Triade Prime estará de volta.">
+  <meta property="og:title" content="Triade Prime — Site em Atualização">
+  <meta property="og:description" content="Estamos preparando uma nova experiência. Em breve, a Triade Prime estará de volta.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: #111827;
+      color: #f9fafb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Grid sutil */
+    .grid-bg {
+      position: absolute;
+      inset: 0;
+      opacity: 0.04;
+      background-image:
+        linear-gradient(#f9fafb 1px, transparent 1px),
+        linear-gradient(90deg, #f9fafb 1px, transparent 1px);
+      background-size: 64px 64px;
+      pointer-events: none;
+    }
+
+    /* Glow ambiente */
+    .glow {
+      position: absolute;
+      top: -160px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(212,168,83,0.30) 0%, transparent 70%);
+      filter: blur(64px);
+      pointer-events: none;
+    }
+
+    .container {
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      max-width: 640px;
+      padding: 0 24px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid rgba(212,168,83,0.40);
+      color: #d4a853;
+      padding: 6px 16px;
+      border-radius: 9999px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      margin-bottom: 32px;
+    }
+
+    .pulse {
+      width: 6px;
+      height: 6px;
+      background-color: #d4a853;
+      border-radius: 50%;
+      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 300;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    h1 .gold {
+      color: #d4a853;
+    }
+
+    .divider {
+      width: 96px;
+      height: 1px;
+      margin: 32px auto;
+      background: linear-gradient(90deg, transparent, #d4a853, transparent);
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1.3;
+    }
+
+    p {
+      margin-top: 16px;
+      max-width: 420px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #9ca3af;
+      font-size: 16px;
+      line-height: 1.625;
+    }
+
+    .footer {
+      margin-top: 48px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      color: #9ca3af;
+    }
+
+    @media (min-width: 640px) {
+      h1 { font-size: 72px; }
+      h2 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="glow" aria-hidden="true"></div>
+
+  <main class="container">
+    <span class="badge">
+      <span class="pulse"></span>
+      Em manutenção
+    </span>
+
+    <h1>Triade <span class="gold">Prime</span></h1>
+
+    <div class="divider"></div>
+
+    <h2>Nosso site está em atualização</h2>
+
+    <p>Estamos preparando uma nova experiência para você. Voltaremos em breve com novidades.</p>
+
+    <p class="footer">© 2026 Triade Prime</p>
+  </main>
+</body>
+</html>
