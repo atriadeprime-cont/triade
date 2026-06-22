@@ -1,0 +1,13 @@
+# Tríade Prime
+
+> Escritório de contabilidade especializado em planejamento tributário, assessoria jurídica e gestão financeira para empresas.
+
+## Páginas
+
+- [Home](https://triadeprime.com.br/): Página principal com apresentação dos serviços e diferenciais
+- [Serviços](https://triadeprime.com.br/servicos.html): Planos e serviços detalhados
+- [Raio-X](https://triadeprime.com.br/raio-x.html): Diagnóstico tributário completo
+- [Contabilidade](https://triadeprime.com.br/contabilidade.html): Serviços de contabilidade
+- [Sobre nós](https://triadeprime.com.br/sobre-nos.html): Equipe e história do escritório
+- [Blog](https://triadeprime.com.br/blog.html): Artigos e conteúdo educativo
+- [Contato](https://triadeprime.com.br/contato.html): Formulário e informações de contato
