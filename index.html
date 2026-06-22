@@ -92,10 +92,10 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
 @media(min-width:600px){.hdr-in{padding:0 32px;}}
 @media(min-width:1000px){.hdr-in{padding:0 40px;}}
 .hdr-logo img{height:28px;width:auto;}
-.hdr-nav{display:none;margin-left:28px;gap:2px;}
+.hdr-nav{display:none;gap:2px;}
 .hdr-nav a{font-size:14px;font-weight:500;color:rgba(255,255,255,.68);padding:8px 14px;border-radius:var(--rp);transition:.2s;}
 .hdr-nav a:hover{color:var(--white);background:rgba(255,255,255,.07);}
-.hdr-cta{display:none;margin-left:auto;}
+.hdr-cta{display:none;}
 .hdr-tog{margin-left:auto;background:none;border:none;cursor:pointer;display:flex;flex-direction:column;gap:5px;padding:6px;}
 .hdr-tog span{display:block;width:22px;height:2px;background:var(--white);border-radius:2px;transition:.25s;}
 .mob-nav{display:none;position:fixed;top:68px;inset:68px 0 0;background:var(--g8);z-index:899;padding:24px 20px;flex-direction:column;}
@@ -104,7 +104,7 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
 .mob-nav a:hover{color:var(--au3);}
 .mob-nav .btn{margin-top:24px;align-self:flex-start;}
 @media(min-width:860px){
-  .hdr-nav{display:flex;} .hdr-cta{display:inline-flex;} .hdr-tog{display:none;}
+  .hdr-nav{display:flex;flex:1;justify-content:center;} .hdr-cta{display:inline-flex;} .hdr-tog{display:none;}
 }
 
 /* PAGE HERO */
@@ -338,7 +338,11 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
 </style>
 <link rel="stylesheet" href="style.css">
 <link rel="manifest" href="manifest.json">
-</head>
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg"></head>
 <body>
 <header class="hdr">
   <div class="hdr-in">
@@ -347,7 +351,7 @@ em{font-style:normal;font-weight:700;color:var(--g6);}
       <a href="/">Home</a><a href="/sobre-nos">Sobre nós</a><a href="/servicos">Serviços</a>
       <a href="/contato">Contato</a><a href="/blog">Blog</a>
     </nav>
-    <a href="/contato" class="btn btn-au hdr-cta">Fale com a gente</a>
+    <a href="https://wa.me/5511974432211?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20especialista%20da%20Tr%C3%ADade%20Prime." target="_blank" rel="noopener" class="btn btn-au hdr-cta">Fale com a gente</a>
     <button class="hdr-tog" id="tog" aria-label="Abrir menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>

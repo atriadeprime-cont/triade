@@ -1,24 +1,13 @@
-{
+﻿{
   "name": "Tríade Prime",
-  "short_name": "Tríade Prime",
-  "description": "Escritório de contabilidade especializado em planejamento tributário, assessoria jurídica e gestão financeira para empresas.",
+  "short_name": "Tríade",
+  "description": "Assessoria tributária e contabilidade para empresas que querem crescer.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#14281a",
   "theme_color": "#14281a",
-  "lang": "pt-BR",
   "icons": [
-    {
-      "src": "/img/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/img/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "favicon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "favicon-512x512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
